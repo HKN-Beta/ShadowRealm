@@ -13,6 +13,8 @@ When FSMs are used as a theoretical/mathematical tool, there is no specific bene
 
 ### Example Moore Machine - 101 Sequence Detector
 
+!(assets/Moore101SeqDet.png)
+
 ### Example Mealy Machine - 101 Sequence Detector
 
 
