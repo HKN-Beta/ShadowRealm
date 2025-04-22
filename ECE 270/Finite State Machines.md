@@ -33,3 +33,39 @@ When FSMs are used as a theoretical/mathematical tool, there is no specific bene
 ![ealy 101 Sequence Detector](assets/Mealy101SeqDet.png)
 
 As you can see from the two different FSM diagrams, the Moore machine has its outputs defined within the states themselves, while the Mealy machine has its outputs defined on transition edges.
+
+#### Example SystemVerilog
+```
+typedef enum {S0, S1, S2, S3} state_t;
+
+module moore_101_det(
+  input logic clk, rst, in,
+  output logic out
+);
+
+  state_t curr_state, next_state;
+
+  always_comb begin : NEXT_STATE_LOGIC
+    case(curr_state)
+      S0: next_state = in ? S1 : S0;
+      S1: next_state = in ? S1 : S2;
+      S2: next_state = in ? S3 : S0;
+      S3: next_state = in ? S1 : S2;
+    endcase
+  end
+
+  //output logic
+  assign out = (curr_state == S3);
+
+  always_ff @(posedge clk, posedge rst) begin
+    if(rst) curr_state <= S0;
+    else curr_state <= next_state;
+  end
+
+endmodule
+```
+
+### Example Exercises
+- Using the above examples, design Moore and Mealy FSMs to detect the sequence 100101. (This will require more states than the examples, but is conceptually similar)
+- Edit the example SystemVerilog for a Moore 101 sequence detector to instead reflect a Mealy 101 sequence detector.
+- Write SystemVerilog for a 100101 sequence detector based on the FSMs designed in the first example.
