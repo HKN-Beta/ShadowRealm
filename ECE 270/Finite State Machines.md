@@ -3,6 +3,9 @@
 ## Overview
 In general, Finite State Machines are a mathematical tool that can be used to represent any system that will be shifting through multiple states or phases. They could be used for game design, to represent the different states of a game (in a level, menu, win condition, etc), or for lexical processors to identify whether an input is valid or not.
 
+ - **Motivation:**
+    Pure combinational logic can be very useful for specific applications - anything that simply needs to convert an array of instantaneous inputs into a corresponding output can be made of pure combinational logic. There are many applications, however, which cannot run on pure combinational logic. A very simple example might be a digital lock, where we need to detect that a sequence of inputs were pressed in the correct order, and not just that all of the input were pressed simultaneously. A broader example would include all sorts of serial communication protocol interfaces - we need some way to detect the setup, data, and end from a data packet, and ensure that they were all sent in the correct order and format. This cannot be done with combinational logic, as we may be receiving many bytes of data over a singular wire.
+
 ## Key Concepts & Definitions
 - **Finite State Machine:** In the domain of digital logic design, a finite state machine is a constructed piece of sequential logic that will convert a sequence of inputs into outputs. Finite state machines are more versatile than standard combinational logic, as FSMs have the ability to operate over a sequence of inputs, rather than the instantaneous input that combinational logic uses.
 - **Moore Machine:** A classification of finite state machines that determine outputs based solely on the current state of the machine.
