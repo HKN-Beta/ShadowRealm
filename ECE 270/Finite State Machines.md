@@ -33,6 +33,9 @@ When FSMs are used as a theoretical/mathematical tool, there is no specific bene
 ![ealy 101 Sequence Detector](assets/Mealy101SeqDet.png)
 
 As you can see from the two different FSM diagrams, the Moore machine has its outputs defined within the states themselves, while the Mealy machine has its outputs defined on transition edges.
+Both of these FSMs do perform the same function, however, which can be seen by taking an example sequence and tracing through the FSM states. For example, with the example sequence 101, which we know should be detected, both state machines will start in S0, and then progress straight through from S1, to S2, to S3, where the output will be a 1. For an example of 100, however, both state machines will start in S0, move to S1, S2, and then back to S0, as they have both failed to detect a 101 in the input sequence.
+
+While detecting a 101 in a sequence of serial input may not seem like the most exciting thing to use an FSM for, it is a very practical problem, as many types of serial communication protocols will identify the beginning of a data packet with a specific sequence of bits, and receivers for that type of data will need to be able to detect that initial sequence.
 
 #### Example SystemVerilog
 ```
