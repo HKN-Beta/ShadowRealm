@@ -39,7 +39,7 @@ While detecting a 101 in a sequence of serial input may not seem like the most e
 
 #### Example SystemVerilog
 ```
-typedef enum {S0, S1, S2, S3} state_t;
+typedef enum logic [1:0] {S0, S1, S2, S3} state_t;
 
 module moore_101_det(
   input logic clk, rst, in,
