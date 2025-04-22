@@ -17,6 +17,6 @@ When FSMs are used as a theoretical/mathematical tool, there is no specific bene
 
 ### Example Mealy Machine - 101 Sequence Detector
 
-
+![ealy 101 Sequence Detector](assets/Mealy101SeqDet.png)
 
 ## State Minimization
