@@ -19,4 +19,4 @@ When FSMs are used as a theoretical/mathematical tool, there is no specific bene
 
 ![ealy 101 Sequence Detector](assets/Mealy101SeqDet.png)
 
-## State Minimization
+As you can see from the two different FSM diagrams, the Moore machine has its outputs defined within the states themselves, while the Mealy machine has its outputs defined on transition edges.
