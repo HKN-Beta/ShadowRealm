@@ -1,19 +1,12 @@
 # ECE 27000 - Finite State Machines
 
 ## Overview
-In general, Finite State Machines are a mathematical tool that can be used to represent any system that will be shifting through multiple states or phases. They could be used for game design, to represent the different states of a game (in a level, menu, win condition, etc), or for lexical processors to identify whether 
-
-- **Why it Exists:** Discuss the historical background of the topic and its development. Why was it first introduced or studied? What problems or needs did it address when it emerged?
-- **How We Got Here:** Outline the evolution of the topic. Mention any key milestones, discoveries, or advancements that led to its current form or understanding.
-- **Motivation:** Provide the motivation for why this topic is important to learn. How does it apply to real-world problems or fields of study? What will understanding this topic allow the reader to achieve or improve?
+In general, Finite State Machines are a mathematical tool that can be used to represent any system that will be shifting through multiple states or phases. They could be used for game design, to represent the different states of a game (in a level, menu, win condition, etc), or for lexical processors to identify whether an input is valid or not.
 
 ## Key Concepts & Definitions
-
-List and explain key terms and concepts related to the topic.
-
-- **Concept 1:** Brief description or definition.
-- **Concept 2:** Brief description or definition.
-- **Concept 3:** Brief description or definition.
+- **Finite State Machine:** In the domain of digital logic design, a finite state machine is a constructed piece of sequential logic that will convert a sequence of inputs into outputs. Finite state machines are more versatile than standard combinational logic, as FSMs have the ability to operate over a sequence of inputs, rather than the instantaneous input that combinational logic uses.
+- **Moore Machine:** A classification of finite state machines that determine outputs based solely on the current state of the machine.
+- **Mealy Machine:** A classification of finite state machines that determine outputs based on a combination of current state and current inputs to the machine.
 
 ## Theory 
 Finite State Machines are used to represent sequential logic in digital circuit design. In previous engineering classes, you may have worked with flowcharts to understand how a process works, or how a program should function. While these work at a high level for sequential logic design, we frequently need an even more detailed mechanism to design our sequential logic.
