@@ -34,7 +34,7 @@ This might seem like a lot of information to include in a single packet of data,
 USB uses NRZI (Non-Return-to-Zero Inverted) encoding to transmit data reliably. This is used to prevent the data line from staying at a logic high or low state for a long time, allowing the receiving device to  synchronize with the clock of the sender correctly and properly decode the data. This involves the use of two signals, called a **differential pair**, that are always at opposite logical values.
 
 A short example of NRZI-encoded data is shown below. Notice that when the original data signal stays at a logic 1 or 0 for more than one clock cycle, the encoded signals toggle. Otherwise, they remain the same when the original signal toggles.
-![image](waves.png "Waveforms of NRZI encoding. Created in Wavedroms.")
+![image](assets/waves.png "Waveforms of NRZI encoding. Created in Wavedroms.")
 
 There are many more details about the USB protocol that can be found online (the USB 1.1 specification is available [here](http://esd.cs.ucr.edu/webres/usb11.pdf)), but these are the basic ideas of its functionality.
 
@@ -42,7 +42,7 @@ There are many more details about the USB protocol that can be found online (the
 
 A USB transceiver is part of a USB device that can send and receive data using the USB protocol. Its main contents are the RX (receiver), TX (transmitter), and bus interface (manages the signals between the transceiver and the device's internals). A data buffer is used to temporarily store data during transmission and reception of data. An block diagram of a USB transceiver on an endpoint device is shown below.
 
-![image](Untitled_Diagram.jpg "Block Diagram")
+![image](assets/Untitled_Diagram.jpg "Block Diagram")
 
 (The internal bus on the endpoint device is shown as a line on the left of the diagram).
 
