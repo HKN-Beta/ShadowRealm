@@ -47,11 +47,10 @@ This interferometer splits the beam using a beam splitter, sends it through two 
 ### Application
 #### Measuring Refractive Index Change
 Interferometers are frequently used to detect changes in the refractive index of a material. As the index changes, so does the optical path length, resulting in a measurable shift in the interference pattern.
-$$
 
-\Delta n = \frac{m \lambda}{L}
- 
-$$
+$$\Delta n = \frac{m \lambda}{L}$$
+
+
 Where:
 
 m is the **number of fringe shifts** observed
