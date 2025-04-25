@@ -30,7 +30,7 @@ A 4f system uses two lenses, each with focal length 𝑓, separated by a distanc
 Low-pass filter: Blocks high spatial frequencies, allowing only smooth variations. Used to reduce noise or blur images.
 High-pass filter: Blocks low spatial frequencies, enhancing edges or fine details.
 
-$$\mathcal{F} \{ {f(x, y)} \} = F(u, v)$$
+$$\mathcal{F} \{ (f(x, y)) \} = F(u, v)$$
 
 Where:
 - 𝑓(𝑥,𝑦) is the **spatial domain function** (the image)
