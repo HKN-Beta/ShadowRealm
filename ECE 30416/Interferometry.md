@@ -21,12 +21,14 @@ modern physical sciences and engineering.
 Interferometers work by splitting a coherent light beam into two or more paths and then recombining the beams after introducing a phase difference. The resulting interference pattern depends on the optical path difference between the beams. This principle can be used to detect minute changes in displacement, refractive index, wavelength, or surface irregularities.
 
 $$
+
 I = I_{1} + I_{2} + 2\sqrt{I_{1} I_{2}} \cos(\Delta \phi)
 
 Where:
 - I is the **resulting intensity**
 - I_{1} and I_{2} are the **intensities of the two beams**
 - \Delta \phi is the **phase difference** between the two paths
+
 $$
 
 **Michelson Interferometer**
@@ -45,6 +47,7 @@ This interferometer splits the beam using a beam splitter, sends it through two 
 ### Application
 #### Measuring Refractive Index Change
 Interferometers are frequently used to detect changes in the refractive index of a material. As the index changes, so does the optical path length, resulting in a measurable shift in the interference pattern.
+
 $$
 
 \Delta n = \frac{m \lambda}{L}
@@ -56,6 +59,7 @@ m is the **number of fringe shifts** observed
 L is the **length** of the sample or material through which the light travels
 
 This technique can detect changes in refractive index as small as 10^−7, which is useful in environmental sensing, biomedical applications, and materials testing.
+
 $$
 
 ### Example Exercises
