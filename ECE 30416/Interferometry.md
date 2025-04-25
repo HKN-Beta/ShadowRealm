@@ -42,6 +42,7 @@ This configuration uses two partially reflective mirrors placed facing each othe
 
 **Mach–Zehnder Interferometer**
 This interferometer splits the beam using a beam splitter, sends it through two separate paths (which may pass through different materials or environments), and recombines it using another beam splitter. It's ideal for measuring phase changes due to external influences such as heat, pressure, or fluid flow. 
+
 ![Michelson Interferometer Example](assets/mach_zehnder.webp)
 
 ### Application
