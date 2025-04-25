@@ -1,4 +1,4 @@
-# ECE 27000 - Finite State Machines
+# ECE 30416 Fourier Transform Filtering
 
 ## Overview
 Fourier Transform Filtering is a foundational technique in optics that leverages the spatial frequency domain to manipulate or analyze images 

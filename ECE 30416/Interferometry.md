@@ -1,4 +1,4 @@
-# ECE 27000 - Finite State Machines
+# ECE 30416 Interferometry
 
 ## Overview
 Interferometry, in optics, is an invaluable technique based on how light waves interfere together - where 2 or more overlapping light waves are 
