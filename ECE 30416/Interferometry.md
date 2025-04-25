@@ -20,37 +20,37 @@ modern physical sciences and engineering.
 ## Theory 
 Interferometers work by splitting a coherent light beam into two or more paths and then recombining the beams after introducing a phase difference. The resulting interference pattern depends on the optical path difference between the beams. This principle can be used to detect minute changes in displacement, refractive index, wavelength, or surface irregularities.
 
-𝐼 = 𝐼_1 + 𝐼_2 + 2*sqrt(𝐼_1 * 𝐼_2) * cos(Δ𝜙)
+I = I_{1} + I_{2} + 2\sqrt{I_{1} I_{2}} \cos(\Delta \phi)
 
 Where:
-- 𝐼 is the **resulting intensity**
-- 𝐼_1 and 𝐼_2 are the **intensities of the two beams**
-- Δ𝜙 is the **phase difference** between the two paths
+- I is the **resulting intensity**
+- I_{1} and I_{2} are the **intensities of the two beams**
+- \Delta \phi is the **phase difference** between the two paths
 
 **Michelson Interferometer**
-One of the earliest and most iconic interferometers, the Michelson splits light into two perpendicular paths using a beam splitter. The beams are reflected back by mirrors and recombined to form interference fringes. Changes in path length between the arms lead to shifts in the fringe pattern. It’s widely used in metrology, surface testing, and was historically significant in the Michelson-Morley experiment.
+One of the earliest and most iconic interferometers, the Michelson splits light into two perpendicular paths using a beam splitter. The beams are reflected back by mirrors and recombined to form interference fringes. Changes in path length between the arms lead to shifts in the fringe pattern. It’s widely used in metrology, surface testing, and was historically significant in the Michelson-Morley experiment. 
 ![Michelson Interferometer Example](assets/michelson.webp)
 
 
 **Fabry–Perot Interferometer**
-This configuration uses two partially reflective mirrors placed facing each other. Light bounces multiple times between the mirrors, producing sharp and high-resolution interference fringes. It is often used for precise spectral line measurements and laser cavity design.
+This configuration uses two partially reflective mirrors placed facing each other. Light bounces multiple times between the mirrors, producing sharp and high-resolution interference fringes. It is often used for precise spectral line measurements and laser cavity design. 
 ![Michelson Interferometer Example](assets/fabry_perot.gif)
 
 **Mach–Zehnder Interferometer**
-This interferometer splits the beam using a beam splitter, sends it through two separate paths (which may pass through different materials or environments), and recombines it using another beam splitter. It's ideal for measuring phase changes due to external influences such as heat, pressure, or fluid flow.
+This interferometer splits the beam using a beam splitter, sends it through two separate paths (which may pass through different materials or environments), and recombines it using another beam splitter. It's ideal for measuring phase changes due to external influences such as heat, pressure, or fluid flow. 
 ![Michelson Interferometer Example](assets/mach_zehnder.webp)
 
 ### Application
 #### Measuring Refractive Index Change
 Interferometers are frequently used to detect changes in the refractive index of a material. As the index changes, so does the optical path length, resulting in a measurable shift in the interference pattern.
 
-Δ𝑛 = 𝑚𝜆 / 𝐿
+\Delta n = \frac{m \lambda}{L}
  
 Where:
 
-𝑚 is the **number of fringe shifts** observed
-𝜆 is the **wavelength** of the laser source
-𝐿 is the **length** of the sample or material through which the light travels
+m is the **number of fringe shifts** observed
+\lambda is the **wavelength** of the laser source
+L is the **length** of the sample or material through which the light travels
 
 This technique can detect changes in refractive index as small as 10^−7, which is useful in environmental sensing, biomedical applications, and materials testing.
 

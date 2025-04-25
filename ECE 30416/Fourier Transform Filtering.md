@@ -38,7 +38,7 @@ Where:
 
 By modifying 𝐹(𝑢,𝑣) through a filter 𝐻(𝑢,𝑣), and then applying the inverse Fourier transform, we obtain a filtered image:
 
-𝑔(𝑥,𝑦) = 𝐹^−1 [𝐹(𝑢,𝑣)⋅𝐻(𝑢,𝑣)]
+g(x, y) = \mathcal{F}^{-1} \left[ F(u, v) \cdot H(u, v) \right]
 
 ### Application
 #### Example: Optical Edge Detection
