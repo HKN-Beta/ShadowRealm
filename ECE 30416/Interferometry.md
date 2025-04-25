@@ -20,16 +20,14 @@ modern physical sciences and engineering.
 ## Theory 
 Interferometers work by splitting a coherent light beam into two or more paths and then recombining the beams after introducing a phase difference. The resulting interference pattern depends on the optical path difference between the beams. This principle can be used to detect minute changes in displacement, refractive index, wavelength, or surface irregularities.
 
-$$
 
-I = I_{1} + I_{2} + 2\sqrt{I_{1} I_{2}} \cos(\Delta \phi)
+$$I = I_{1} + I_{2} + 2\sqrt{I_{1} I_{2}} \cos(\Delta \phi)$$
 
 Where:
-- I is the **resulting intensity**
-- I_{1} and I_{2} are the **intensities of the two beams**
-- \Delta \phi is the **phase difference** between the two paths
+- I is the **resulting intensity** 
+- $$I_{1}$$ and $$I_{2}$$ are the **intensities of the two beams** 
+- $$\Delta \phi$$ is the **phase difference** between the two paths 
 
-$$
 
 **Michelson Interferometer**
 One of the earliest and most iconic interferometers, the Michelson splits light into two perpendicular paths using a beam splitter. The beams are reflected back by mirrors and recombined to form interference fringes. Changes in path length between the arms lead to shifts in the fringe pattern. It’s widely used in metrology, surface testing, and was historically significant in the Michelson-Morley experiment. 
@@ -53,9 +51,11 @@ $$\Delta n = \frac{m \lambda}{L}$$
 
 Where:
 
-m is the **number of fringe shifts** observed
-$$\lambda$$ is the **wavelength** of the laser source
-L is the **length** of the sample or material through which the light travels
+m is the **number of fringe shifts** observed. 
+
+$$\lambda$$ is the **wavelength** of the laser source. 
+
+L is the **length** of the sample or material through which the light travels. 
 
 This technique can detect changes in refractive index as small as $$10^{−7}$$, which is useful in environmental sensing, biomedical applications, and materials testing.
 
