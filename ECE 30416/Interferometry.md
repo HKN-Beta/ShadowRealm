@@ -31,11 +31,13 @@ Where:
 
 **Michelson Interferometer**
 One of the earliest and most iconic interferometers, the Michelson splits light into two perpendicular paths using a beam splitter. The beams are reflected back by mirrors and recombined to form interference fringes. Changes in path length between the arms lead to shifts in the fringe pattern. It’s widely used in metrology, surface testing, and was historically significant in the Michelson-Morley experiment. 
+
 ![Michelson Interferometer Example](assets/michelson.webp)
 
 
 **Fabry–Perot Interferometer**
 This configuration uses two partially reflective mirrors placed facing each other. Light bounces multiple times between the mirrors, producing sharp and high-resolution interference fringes. It is often used for precise spectral line measurements and laser cavity design. 
+
 ![Michelson Interferometer Example](assets/fabry_perot.gif)
 
 **Mach–Zehnder Interferometer**
