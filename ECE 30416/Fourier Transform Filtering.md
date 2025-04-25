@@ -37,9 +37,9 @@ Where:
 - 𝐹(𝑢,𝑣) is the **frequency domain representation**
 
 By modifying 𝐹(𝑢,𝑣) through a filter 𝐻(𝑢,𝑣), and then applying the inverse Fourier transform, we obtain a filtered image:
-
+$$
 g(x, y) = \mathcal{F}^{-1} \left[ F(u, v) \cdot H(u, v) \right]
-
+$$
 ### Application
 #### Example: Optical Edge Detection
 By placing a high-pass filter in the Fourier plane of a 4f system, we can highlight edges and fine structures in an image. This is done by blocking or attenuating the central (low-frequency) components and letting peripheral (high-frequency) components pass through.
